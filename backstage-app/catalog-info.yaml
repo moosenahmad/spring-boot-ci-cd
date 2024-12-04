@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spring-boot-ci-cd
+  description: Spring Boot application for CI/CD demo
+  annotations:
+    github.com/project-slug: moosenahmad/spring-boot-ci-cd
+    backstage.io/techdocs-ref: url:https://github.com/moosenahmad/spring-boot-ci-cd
+spec:
+  type: service
+  owner: moosenahmad
+  lifecycle: production
+  providesApis: []
+  consumesApis: []
